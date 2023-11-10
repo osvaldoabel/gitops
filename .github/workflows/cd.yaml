@@ -43,5 +43,5 @@ jobs:
     - name: Push 
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.DOCKERHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: osvaldoabel/gitops
