@@ -8,4 +8,4 @@ resources:
 images:
 - name: goserver
   newName: osvaldoabel/gitops
-  newTag: 123-tag0nova
+  newTag: goserver
